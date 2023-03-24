@@ -6,5 +6,5 @@ class User < ApplicationRecord
         uniqueness: true
     }
 
-    has_many: recipes
+    has_many :recipes
 end
