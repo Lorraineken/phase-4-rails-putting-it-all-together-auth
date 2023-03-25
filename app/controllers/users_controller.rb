@@ -20,7 +20,7 @@ class UsersController < ApplicationController
     private 
 
     def user_params 
-        params.permit(:username, :password, :image_url, :bio)
+        params.permit(:username, :password, :image_url, :bio, :password_confirmation)
     end
 
     def authorize 
